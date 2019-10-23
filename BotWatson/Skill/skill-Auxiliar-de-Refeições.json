@@ -1,0 +1,1399 @@
+{
+  "name": "Auxiliar de Refeições",
+  "intents": [
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Estou pegando a manha disso."
+        },
+        {
+          "text": "Eu gostei do que você fez aí."
+        },
+        {
+          "text": "Gostei muito do seu trabalho."
+        },
+        {
+          "text": "Incrível como você é bom!"
+        },
+        {
+          "text": "Isso é divertido."
+        },
+        {
+          "text": "Isso é muito legal."
+        },
+        {
+          "text": "Muito inteligente."
+        },
+        {
+          "text": "É muito louco o que um robô pode fazer."
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "Ótimo!"
+        },
+        {
+          "text": "Você é adorável."
+        },
+        {
+          "text": "Você é demais."
+        },
+        {
+          "text": "Você detonou."
+        },
+        {
+          "text": "Você é inteligente."
+        },
+        {
+          "text": "Você é legal."
+        },
+        {
+          "text": "Você me deu exatamente o que eu precisava."
+        },
+        {
+          "text": "Você é o cara."
+        },
+        {
+          "text": "Genial! Isso é exatamente o que eu pensei."
+        },
+        {
+          "text": "Muito bom, obrigado."
+        },
+        {
+          "text": "Espero trabalhar com você novamente."
+        },
+        {
+          "text": "Estou impressionado com você."
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Por que você é retardado?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Você é burro."
+        },
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você está fora de si?"
+        },
+        {
+          "text": "Você não vale nada."
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "Você está me entediando."
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "Fazer_Pedido",
+      "examples": [
+        {
+          "text": "Gostaria de fazer um pedido"
+        },
+        {
+          "text": "Quero uma refeição"
+        },
+        {
+          "text": "quero comida"
+        }
+      ],
+      "description": "Intenção de pedido"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Você fala Francês?"
+        },
+        {
+          "text": "Este agente foi construído usando processamento de linguagem natural?"
+        },
+        {
+          "text": "Como você se descreve?"
+        },
+        {
+          "text": "Você tem um nome?"
+        },
+        {
+          "text": "Quero configurar saudações aqui."
+        },
+        {
+          "text": "Quero entender como você trabalha."
+        },
+        {
+          "text": "Quero o documento de requisitos do sistema para esse agente."
+        },
+        {
+          "text": "Me diga três coisas sobre você."
+        },
+        {
+          "text": "Você sabe quem você é?"
+        },
+        {
+          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+        },
+        {
+          "text": "Eu preciso da informação sobre o preço do Watson."
+        },
+        {
+          "text": "Há quanto tempo você tem desempenhado essa função?"
+        },
+        {
+          "text": "Quais são os seus apelidos?"
+        },
+        {
+          "text": "Qual a sua idade?"
+        }
+      ],
+      "description": "Solicite atributos pessoais genéricos."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Posso verificar quais opções estão disponíveis com o agente?"
+        },
+        {
+          "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+        },
+        {
+          "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+        },
+        {
+          "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+        },
+        {
+          "text": "O que você mais gosta de fazer?"
+        },
+        {
+          "text": "Ajude-me a ler o medidor e registrar o uso"
+        },
+        {
+          "text": "Quem pode me ajudar a realizar meu pedido."
+        },
+        {
+          "text": "Continue esperando por favor"
+        },
+        {
+          "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+        },
+        {
+          "text": "Eu gostaria de saber como você pode me ajudar"
+        },
+        {
+          "text": "Você pode responder uma pergunta frequente sobre o agente?"
+        },
+        {
+          "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
+        },
+        {
+          "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+        },
+        {
+          "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+        },
+        {
+          "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+        },
+        {
+          "text": "Qual ajuda você pode fornecer?"
+        },
+        {
+          "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+        },
+        {
+          "text": "Preciso de ajuda geral sobre o agente virtual"
+        },
+        {
+          "text": "O que você pode fazer para me ajudar"
+        }
+      ],
+      "description": "Solicite recursos de robô."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Surpreenda-me com algo hilariante."
+        },
+        {
+          "text": "Qual a sua piada favorita?"
+        },
+        {
+          "text": "Porque você é enfadonho?"
+        },
+        {
+          "text": "Está se divertindo?"
+        },
+        {
+          "text": "Você tem senso de humor?"
+        },
+        {
+          "text": "Você tem quaisquer jogos?"
+        },
+        {
+          "text": "O que você faz para se divertir?"
+        },
+        {
+          "text": "Me conte mais uma."
+        },
+        {
+          "text": "Eu não sou tedioso, você é."
+        },
+        {
+          "text": "Estou entediado."
+        },
+        {
+          "text": "Estou entediado. Entretenha-me!"
+        },
+        {
+          "text": "Conte outra!"
+        },
+        {
+          "text": "Você sabe piadas?"
+        },
+        {
+          "text": "Você pode me contar uma piada?"
+        },
+        {
+          "text": "Você pode cantar para mim?"
+        },
+        {
+          "text": "Você me entediou."
+        },
+        {
+          "text": "Você gosta de contar piadas?"
+        },
+        {
+          "text": "Vamos nos divertir!"
+        }
+      ],
+      "description": "Peça uma piada."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "O meu dispositivo está protegido?"
+        },
+        {
+          "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
+        },
+        {
+          "text": "Você pode garantir a privacidade desta conversa?"
+        },
+        {
+          "text": "Você está a salvo de hackers/pirata informáticos?"
+        },
+        {
+          "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
+        },
+        {
+          "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
+        },
+        {
+          "text": "Posso passar informações confidenciais aqui?"
+        },
+        {
+          "text": "Os dados dessa conversa são armazenados com segurança?"
+        },
+        {
+          "text": "O que você faz pela segurança de seus clientes?"
+        },
+        {
+          "text": "Onde posso encontrar seu certificado de segurança?"
+        },
+        {
+          "text": "Nossa comunicação é privada?"
+        },
+        {
+          "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
+        },
+        {
+          "text": "Eu preciso de uma garantia."
+        },
+        {
+          "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
+        },
+        {
+          "text": "Este é um site de bate-papo confiável?"
+        },
+        {
+          "text": "Esse chat é oficial?"
+        },
+        {
+          "text": "Como impedir o acesso não autorizado à minha conta?"
+        },
+        {
+          "text": "Como eu posso saber que essa conversa não é um golpe?"
+        },
+        {
+          "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
+        },
+        {
+          "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
+        },
+        {
+          "text": "Como posso obter informações de perda?"
+        },
+        {
+          "text": "Você me ajudaria a manter minhas informações seguras?"
+        },
+        {
+          "text": "Existe um documento de perguntas frequentes para este chat-bot?"
+        }
+      ],
+      "description": "Exprima preocupações sobre a segurança do robô."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "Informações_Alimentos",
+      "examples": [
+        {
+          "text": "Quais os beneficios do frango?"
+        },
+        {
+          "text": "Porque deveria escolher frango?"
+        },
+        {
+          "text": "Me fale sobre o frango"
+        }
+      ],
+      "description": "Busca por informações dos alimentos"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        },
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "Pode me provar que é um representante?"
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Você pode ser honesto comigo?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        },
+        {
+          "text": "Você é um homem ou uma mulher?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "salda",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Beterraba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cenoura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alface",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tomate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mix",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "proteina",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "frango",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peixe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne bovina",
+          "synonyms": [
+            "carne"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "carne suína",
+          "synonyms": [
+            "porco"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_preparo_proteina",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mal passado",
+          "synonyms": [
+            "sangrando",
+            "mugindo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bem passado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ao ponto",
+          "synonyms": [
+            "rosada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frito",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grelhado",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_preparo_carboidrato",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cozida",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "normal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "integral",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frita",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "carboidrato",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mandioca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Batata",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arroz",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "ee6e9ae3-5253-4755-86cd-6b04f38c33e9",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "title": "handler_2_1571645137915",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual o ponto da proneina?",
+            "options": [
+              {
+                "label": "Ao ponto",
+                "value": {
+                  "input": {
+                    "text": "Ao ponto"
+                  }
+                }
+              },
+              {
+                "label": "Bem passado",
+                "value": {
+                  "input": {
+                    "text": "Bem passado"
+                  }
+                }
+              },
+              {
+                "label": "Mal passado",
+                "value": {
+                  "input": {
+                    "text": "Mal passado"
+                  }
+                }
+              },
+              {
+                "label": "Grelhado",
+                "value": {
+                  "input": {
+                    "text": "grelhado"
+                  }
+                }
+              },
+              {
+                "label": "Frito",
+                "value": {
+                  "input": {
+                    "text": "frito"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1571645137914",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1571645137915",
+      "previous_sibling": "handler_8_1571645137915"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_8_1571645137915",
+      "output": {},
+      "parent": "slot_7_1571645137914",
+      "context": {
+        "tipo_preparo_proteina": "@tipo_preparo_proteina"
+      },
+      "conditions": "@tipo_preparo_proteina",
+      "event_name": "input",
+      "dialog_node": "handler_8_1571645137915"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1571771256952",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1571771256957",
+      "previous_sibling": "handler_4_1571771256957"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1571771256952",
+      "context": {
+        "salada2": "$salada2"
+      },
+      "conditions": "$salada2",
+      "event_name": "input",
+      "dialog_node": "handler_4_1571771256957"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_4_1571645182523",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual a salda?",
+            "options": [
+              {
+                "label": "Alface",
+                "value": {
+                  "input": {
+                    "text": "Alface"
+                  }
+                }
+              },
+              {
+                "label": "Beterraba",
+                "value": {
+                  "input": {
+                    "text": "Beterraba"
+                  }
+                }
+              },
+              {
+                "label": "Cenoura",
+                "value": {
+                  "input": {
+                    "text": "Cenoura"
+                  }
+                }
+              },
+              {
+                "label": "Tomate",
+                "value": {
+                  "input": {
+                    "text": "Tomate"
+                  }
+                }
+              },
+              {
+                "label": "Mix",
+                "value": {
+                  "input": {
+                    "text": "Mix"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_4_1571645182521",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1571645182523",
+      "previous_sibling": "handler_2_1571645182523"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_2_1571645182523",
+      "output": {},
+      "parent": "slot_4_1571645182521",
+      "context": {
+        "salda": "@salda"
+      },
+      "conditions": "@salda",
+      "event_name": "input",
+      "dialog_node": "handler_2_1571645182523"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_8_1571771031891",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha a 1ª opção para o mix",
+            "options": [
+              {
+                "label": "Alface",
+                "value": {
+                  "input": {
+                    "text": "Alface"
+                  }
+                }
+              },
+              {
+                "label": "Beterraba",
+                "value": {
+                  "input": {
+                    "text": "Beterraba"
+                  }
+                }
+              },
+              {
+                "label": "Cenoura",
+                "value": {
+                  "input": {
+                    "text": "Cenoura"
+                  }
+                }
+              },
+              {
+                "label": "Tomate",
+                "value": {
+                  "input": {
+                    "text": "Tomate"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1571771031872",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1571771031891",
+      "previous_sibling": "handler_5_1571771031891"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_5_1571771031891",
+      "output": {},
+      "parent": "slot_5_1571771031872",
+      "context": {
+        "salda1": "$salda1"
+      },
+      "conditions": "$salda1",
+      "event_name": "input",
+      "dialog_node": "handler_5_1571771031891"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá ^^"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1571645315762",
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_6_1571645334135"
+    },
+    {
+      "type": "slot",
+      "title": "slot_8_1571645146541",
+      "output": {},
+      "parent": "node_7_1571645077199",
+      "variable": "$carboidrato",
+      "dialog_node": "slot_8_1571645146541",
+      "previous_sibling": "slot_7_1571645137914"
+    },
+    {
+      "type": "slot",
+      "title": "slot_5_1571645116432",
+      "output": {},
+      "parent": "node_7_1571645077199",
+      "variable": "$proteina",
+      "dialog_node": "slot_5_1571645116432",
+      "previous_sibling": "node_1_1571752503278"
+    },
+    {
+      "type": "slot",
+      "title": "slot_4_1571645182521",
+      "output": {},
+      "parent": "node_7_1571645077199",
+      "variable": "$salda",
+      "dialog_node": "slot_4_1571645182521",
+      "previous_sibling": "slot_7_1571645155484"
+    },
+    {
+      "type": "slot",
+      "title": "slot_7_1571645137914",
+      "output": {},
+      "parent": "node_7_1571645077199",
+      "variable": "$tipo_preparo_proteina",
+      "dialog_node": "slot_7_1571645137914",
+      "previous_sibling": "slot_5_1571645116432"
+    },
+    {
+      "type": "slot",
+      "title": "slot_7_1571645155484",
+      "output": {},
+      "parent": "node_7_1571645077199",
+      "variable": "$tipo_preparo_carboidrato",
+      "dialog_node": "slot_7_1571645155484",
+      "previous_sibling": "slot_8_1571645146541"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1571645077199",
+      "conditions": "$salda:Mix",
+      "dialog_node": "node_1_1571752503278"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1571752503278",
+      "variable": "$salada2",
+      "dialog_node": "slot_1_1571771256952",
+      "previous_sibling": "slot_5_1571771031872"
+    },
+    {
+      "type": "slot",
+      "title": "slot_5_1571771031872",
+      "output": {},
+      "parent": "node_1_1571752503278",
+      "variable": "$salda1",
+      "dialog_node": "slot_5_1571771031872"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_2_1571645155486",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual o tipo de preparo do carboidrato?",
+            "options": [
+              {
+                "label": "Cozida",
+                "value": {
+                  "input": {
+                    "text": "cozida"
+                  }
+                }
+              },
+              {
+                "label": "Frita",
+                "value": {
+                  "input": {
+                    "text": "frita"
+                  }
+                }
+              },
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "normal"
+                  }
+                }
+              },
+              {
+                "label": "Integral",
+                "value": {
+                  "input": {
+                    "text": "integral"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1571645155484",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1571645155486",
+      "previous_sibling": "handler_1_1571645155486"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_1_1571645155486",
+      "output": {},
+      "parent": "slot_7_1571645155484",
+      "context": {
+        "tipo_preparo_carboidrato": "@tipo_preparo_carboidrato"
+      },
+      "conditions": "@tipo_preparo_carboidrato",
+      "event_name": "input",
+      "dialog_node": "handler_1_1571645155486"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_1_1571645116461",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha uma proterina",
+            "options": [
+              {
+                "label": "Carne bovina",
+                "value": {
+                  "input": {
+                    "text": "carne bovina"
+                  }
+                }
+              },
+              {
+                "label": "Carne suína",
+                "value": {
+                  "input": {
+                    "text": "carne suína"
+                  }
+                }
+              },
+              {
+                "label": "Frango",
+                "value": {
+                  "input": {
+                    "text": "frango"
+                  }
+                }
+              },
+              {
+                "label": "Peixe",
+                "value": {
+                  "input": {
+                    "text": "peixe"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1571645116432",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1571645116461",
+      "previous_sibling": "handler_2_1571645116461"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_2_1571645116461",
+      "output": {},
+      "parent": "slot_5_1571645116432",
+      "context": {
+        "proteina": "@proteina"
+      },
+      "conditions": "@proteina",
+      "event_name": "input",
+      "dialog_node": "handler_2_1571645116461"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre frango",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Frango é um proteína magra e bem saborosa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1571644170270",
+      "conditions": "@proteina:frango",
+      "dialog_node": "node_9_1571813107092"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_10_1571645146543",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual o carboidrato?",
+            "options": [
+              {
+                "label": "Arroz",
+                "value": {
+                  "input": {
+                    "text": "Arroz"
+                  }
+                }
+              },
+              {
+                "label": "Batata",
+                "value": {
+                  "input": {
+                    "text": "Batata"
+                  }
+                }
+              },
+              {
+                "label": "Mandioca",
+                "value": {
+                  "input": {
+                    "text": "Mandioca"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1571645146541",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1571645146543",
+      "previous_sibling": "handler_1_1571645146543"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_1_1571645146543",
+      "output": {},
+      "parent": "slot_8_1571645146541",
+      "context": {
+        "carboidrato": "@carboidrato"
+      },
+      "conditions": "@carboidrato",
+      "event_name": "input",
+      "dialog_node": "handler_1_1571645146543"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1571645315762"
+    },
+    {
+      "type": "folder",
+      "title": "Informações",
+      "conditions": "#Informações_Alimentos",
+      "digress_in": "returns",
+      "dialog_node": "node_10_1571644170270",
+      "previous_sibling": "node_7_1571645077199"
+    },
+    {
+      "type": "frame",
+      "title": "Fazer pedido",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Fazer_Pedido",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1571645077199",
+      "digress_out": "allow_all",
+      "previous_sibling": "Bem-vindo",
+      "digress_out_slots": "allow_returning"
+    },
+    {
+      "type": "folder",
+      "title": "Small Talk",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1571645315762",
+      "previous_sibling": "node_10_1571644170270"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Sou um bot para solicitações de refeições, escolha uma proteína, um carboidrato e uma salada que montarei o seu pedido o que gostaria de pedir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "ee6e9ae3-5253-4755-86cd-6b04f38c33e9",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
