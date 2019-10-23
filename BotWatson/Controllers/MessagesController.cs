@@ -42,6 +42,13 @@ namespace BotWatson.Controllers
             return messagem;
         }
 
+
+        [HttpGet("{conversationId}")]
+        public async Task<ActionResult<IEnumerable<Messagem>>> GetMessagemByConversationId(string conversationId)
+        {
+            return await _context.Messagem.Where(m => m.ConversationId == conversationId).ToListAsync();
+        }
+
         // POST: api/Messages
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
